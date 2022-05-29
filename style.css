@@ -1,0 +1,134 @@
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(texgyreadventor-regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(texgyreadventor-bold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(texgyreadventor-italic.otf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: TexGyreAdventor;
+    src: url(texgyreadventor-bolditalic.otf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+    margin: 0;
+    font-family: TexGyreAdventor;
+    font-size: larger;
+    text-align: center;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding-left: 13%;
+    padding-right: 13%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.header .one {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+}
+
+.header .two {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 10;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    padding-left: 80px;
+}
+
+.header .three {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header a:hover {
+    background-color: black;
+}
+
+.content {
+    background-color: rgb(233, 233, 233);
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    flex: 1 1 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.content a {
+    color: rgb(5, 5, 51);
+    text-decoration: underline;
+}
+
+.content img {
+    width: 85%;
+}
+
+.content ul li a {
+    align-items: unset;
+    align-content: unset;
+    justify-items: left;
+}
