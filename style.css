@@ -132,3 +132,13 @@ body::-webkit-scrollbar {
     align-content: unset;
     justify-items: left;
 }
+
+.text-link a {
+    text-decoration: underline;
+    color: #000;
+    transition: 0.15s;
+}
+
+.text-link a:hover {
+    color: rgb(47, 63, 71);
+}
